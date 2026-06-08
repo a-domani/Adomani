@@ -164,3 +164,14 @@ transparent 83px 160px
   display: flex;
   flex-direction: column;
 }
+.site-logo{
+  width:72px;
+  height:auto;
+  margin-right:12px;
+}
+
+.brand a{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
