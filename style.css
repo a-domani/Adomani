@@ -149,3 +149,18 @@ transparent 83px 160px
 .section .button {
   margin-top: 20px !important;
 }
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.brand img {
+  width: 90px;
+  height: auto;
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+}
