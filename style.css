@@ -70,3 +70,28 @@
   background: #dfead2;
   color: #234b3e;
 }
+/* stronger stained-glass hero */
+.hero {
+  background:
+    linear-gradient(rgba(255,255,255,.72), rgba(255,255,255,.78)),
+    repeating-linear-gradient(35deg, transparent 0 48px, rgba(96,74,42,.28) 49px 52px, transparent 53px 98px),
+    repeating-linear-gradient(120deg, transparent 0 42px, rgba(96,74,42,.22) 43px 46px, transparent 47px 92px),
+    radial-gradient(circle at 12% 25%, rgba(130,190,120,.65) 0 7%, transparent 8%),
+    radial-gradient(circle at 88% 30%, rgba(130,190,120,.65) 0 7%, transparent 8%),
+    radial-gradient(circle at 18% 70%, rgba(140,205,220,.55) 0 9%, transparent 10%),
+    radial-gradient(circle at 82% 68%, rgba(246,210,150,.55) 0 9%, transparent 10%),
+    linear-gradient(135deg, #d9ead3 0 20%, #f6e4b8 20% 40%, #cce7ef 40% 60%, #ead4df 60% 80%, #dbe9c8 80%);
+}
+
+.hero::before,
+.hero::after {
+  width: 35%;
+  opacity: .9;
+  background:
+    linear-gradient(65deg, transparent 0 36%, rgba(105,75,35,.55) 37% 40%, transparent 41%),
+    linear-gradient(115deg, transparent 0 42%, rgba(105,75,35,.45) 43% 46%, transparent 47%),
+    radial-gradient(ellipse at 30% 30%, rgba(100,165,90,.9) 0 8%, transparent 9%),
+    radial-gradient(ellipse at 45% 48%, rgba(130,190,100,.85) 0 7%, transparent 8%),
+    radial-gradient(ellipse at 60% 25%, rgba(95,150,80,.8) 0 6%, transparent 7%),
+    radial-gradient(ellipse at 70% 62%, rgba(120,180,95,.75) 0 6%, transparent 7%);
+}
