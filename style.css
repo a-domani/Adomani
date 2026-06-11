@@ -3,27 +3,14 @@
 /* stained-glass style for hero */
 .hero {
   background:
-  linear-gradient(rgba(255,255,255,.90), rgba(255,255,255,.90)),
-  linear-gradient(
-    45deg,
-    rgba(215,235,220,.35) 0%,
-    rgba(245,240,220,.35) 25%,
-    rgba(220,235,245,.35) 50%,
-    rgba(245,225,230,.35) 75%,
-    rgba(235,245,220,.35) 100%
-  ),
-  repeating-linear-gradient(
-    45deg,
-    transparent 0 80px,
-    rgba(170,140,90,.18) 80px 83px,
-    transparent 83px 160px
-  ),
-  repeating-linear-gradient(
-    -45deg,
-    transparent 0 80px,
-    rgba(170,140,90,.18) 80px 83px,
-    transparent 83px 160px
-  );
+    linear-gradient(
+      135deg,
+      rgba(215,235,220,.25) 0%,
+      rgba(245,240,220,.25) 25%,
+      rgba(220,235,245,.25) 50%,
+      rgba(245,225,230,.25) 75%,
+      rgba(235,245,220,.25) 100%
+    );
 }
 
 .hero::before,
