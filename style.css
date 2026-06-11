@@ -208,3 +208,6 @@ transparent 83px 160px
     display: none !important;
   }
 }
+.brand-copy{
+    display:none;
+}
