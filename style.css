@@ -73,21 +73,7 @@
   color: #234b3e;
 }
 /* stronger stained-glass hero */
-.hero {
-  background:
-linear-gradient(rgba(255,255,255,.88), rgba(255,255,255,.88)),
-linear-gradient(45deg,
-rgba(215,235,220,.75) 0%,
-rgba(245,240,220,.75) 25%,
-rgba(220,235,245,.75) 50%,
-rgba(245,225,230,.75) 75%,
-rgba(235,245,220,.75) 100%),
-repeating-linear-gradient(
-45deg,
-transparent 0 55px,
-rgba(120,90,60,.22) 80px 81px,
-transparent 83px 160px
-),
+
 repeating-linear-gradient(
 -45deg,
 transparent 0 80px,
@@ -97,18 +83,7 @@ transparent 83px 160px
     linear-gradient(135deg, #d9ead3 0 20%, #f6e4b8 20% 40%, #cce7ef 40% 60%, #ead4df 60% 80%, #dbe9c8 80%);
 }
 
-.hero::before,
-.hero::after {
-  width: 35%;
-  opacity: .9;
-  background:
-    linear-gradient(65deg, transparent 0 36%, rgba(105,75,35,.55) 37% 40%, transparent 41%),
-    linear-gradient(115deg, transparent 0 42%, rgba(105,75,35,.45) 43% 46%, transparent 47%),
-    radial-gradient(ellipse at 30% 30%, rgba(100,165,90,.9) 0 8%, transparent 9%),
-    radial-gradient(ellipse at 45% 48%, rgba(130,190,100,.85) 0 7%, transparent 8%),
-    radial-gradient(ellipse at 60% 25%, rgba(95,150,80,.8) 0 6%, transparent 7%),
-    radial-gradient(ellipse at 70% 62%, rgba(120,180,95,.75) 0 6%, transparent 7%);
-}
+
 
 @media (max-width: 768px) {
 
