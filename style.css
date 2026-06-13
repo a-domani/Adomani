@@ -179,3 +179,32 @@ transparent 83px 160px
   content:none !important;
   background:none !important;
 }
+@media (max-width: 768px) {
+  .site-header {
+    padding: 18px 16px;
+  }
+
+  .brand {
+    display: block;
+  }
+
+  .brand a {
+    font-size: 24px;
+    line-height: 1.35;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 12px;
+    padding: 12px 0 6px;
+    white-space: nowrap;
+  }
+
+  nav a {
+    flex: 0 0 auto;
+    font-size: 15px;
+    padding: 10px 14px;
+  }
+}
