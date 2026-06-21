@@ -1,242 +1,70 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>採用情報｜訪問看護ステーションあどまーに</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: "Hiragino Sans", "Yu Gothic", sans-serif;
-      color: #2f2f2f;
-      background: #fffaf4;
-      line-height: 1.9;
-    }
-
-    header {
-      padding: 20px;
-      background: #ffffffcc;
-      position: sticky;
-      top: 0;
-      z-index: 10;
-      backdrop-filter: blur(10px);
-      border-bottom: 1px solid #eee;
-    }
-
-    header a {
-      text-decoration: none;
-      color: #5b4636;
-      font-weight: bold;
-    }
-
-    .hero {
-      min-height: 85vh;
-      display: flex;
-      align-items: center;
-      padding: 40px 8%;
-      background: linear-gradient(135deg, #fff3df, #f7d7b7);
-    }
-
-    .hero h1 {
-      font-size: clamp(38px, 7vw, 72px);
-      line-height: 1.25;
-      margin: 0 0 24px;
-      color: #4d3424;
-    }
-
-    .hero p {
-      font-size: 18px;
-      max-width: 650px;
-      margin-bottom: 32px;
-    }
-
-    .buttons a {
-      display: inline-block;
-      margin: 8px 12px 8px 0;
-      padding: 14px 26px;
-      border-radius: 999px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .primary {
-      background: #a86d3d;
-      color: white;
-    }
-
-    .secondary {
-      border: 1px solid #a86d3d;
-      color: #a86d3d;
-      background: white;
-    }
-
-    section {
-      padding: 80px 8%;
-    }
-
-    .section-title {
-      font-size: clamp(28px, 5vw, 46px);
-      color: #4d3424;
-      margin-bottom: 24px;
-      line-height: 1.4;
-    }
-
-    .lead {
-      font-size: 18px;
-      max-width: 760px;
-    }
-
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 24px;
-      margin-top: 40px;
-    }
-
-    .card {
-      background: white;
-      border-radius: 24px;
-      padding: 28px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.06);
-    }
-
-    .card h3 {
-      color: #8a572f;
-      margin-top: 0;
-      font-size: 22px;
-    }
-
-    .story {
-      background: #fff;
-    }
-
-    .promise {
-      background: #f8eadb;
-    }
-
-    .person {
-      background: #4d3424;
-      color: white;
-      text-align: center;
-    }
-
-    .person h2 {
-      color: white;
-    }
-
-    .person strong {
-      font-size: 30px;
-      display: block;
-      margin: 24px 0;
-    }
-
-    .faq details {
-      background: white;
-      margin-bottom: 14px;
-      padding: 20px 24px;
-      border-radius: 16px;
-      box-shadow: 0 6px 18px rgba(0,0,0,0.04);
-    }
-
-    .faq summary {
-      font-weight: bold;
-      cursor: pointer;
-      color: #5b4636;
-    }
-
-    .cta {
-      text-align: center;
-      background: linear-gradient(135deg, #f3c89f, #fff3df);
-    }
-
-    .cta h2 {
-      font-size: clamp(30px, 5vw, 54px);
-      color: #4d3424;
-    }
-
-    footer {
-      text-align: center;
-      padding: 36px;
-      background: #4d3424;
-      color: white;
-      font-size: 14px;
-    }
-
-    @media (max-width: 600px) {
-      section {
-        padding: 60px 6%;
-      }
-
-      .hero {
-        padding: 60px 6%;
-      }
-
-      .buttons a {
-        display: block;
-        text-align: center;
-      }
-    }
-  </style>
+  <meta name="description" content="訪問看護ステーションあどまーにの採用情報です。仕事も人生も大切にできる働き方を、一緒につくっていく仲間を募集しています。">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-  <a href="index.html">訪問看護ステーションあどまーに</a>
+<header class="brand">
+  <a href="index.html">
+    <img src="images/logo.png" alt="訪問看護ステーションあどまーに">
+  </a>
 </header>
 
-<main>
+<nav>
+  <a href="index.html">トップ</a>
+  <a href="about.html">あどまーにについて</a>
+  <a href="features.html">特徴</a>
+  <a href="services.html">サービス</a>
+  <a href="diseases.html">疾患別</a>
+  <a href="medical-care.html">医療的ケア</a>
+  <a href="woc.html">皮膚・排泄ケア</a>
+  <a href="professionals.html">医療・介護関係者へ</a>
+  <a href="recruit.html" class="active">採用</a>
+  <a href="contact.html">お問い合わせ</a>
+</nav>
 
 <section class="hero">
-  <div>
+  <div class="hero-inner">
+    <p class="eyebrow">採用情報</p>
     <h1>人生を豊かにする<br>働き方。</h1>
-    <p>
+    <p class="lead">
       仕事は、人生の一部。<br>
-      だからこそ、仕事だけではなく、家族との時間、自分の時間、挑戦する時間も大切にしてほしい。
+      だからこそ、家族との時間、自分の時間、挑戦する時間も大切にしてほしい。
       あどまーには、そんな働き方を一緒につくっていく場所です。
     </p>
-    <div class="buttons">
-      <a class="primary" href="#contact">まずは話を聞いてみる</a>
-      <a class="secondary" href="#about">想いを読む</a>
+    <div class="hero-actions">
+      <a class="button" href="contact.html">まずは話を聞いてみる</a>
+      <a class="button secondary" href="#message">想いを読む</a>
     </div>
   </div>
 </section>
 
-<section id="about">
-  <h2 class="section-title">あなたは、どんな人生を送りたいですか。</h2>
-  <p class="lead">
+<main>
+
+<section id="message" class="section">
+  <h2>あなたは、どんな人生を送りたいですか。</h2>
+  <p>
     利用者さんの人生を大切にするためには、働く私たち自身も、自分の人生を大切にできることが必要だと考えています。
   </p>
-  <p class="lead">
+  <p>
     仕事のために人生を我慢するのではなく、仕事も、家族も、趣味も、挑戦も、自分らしさも大切にできる。
     あどまーには、そんな職場を目指しています。
   </p>
 </section>
 
-<section class="story">
-  <h2 class="section-title">あどまーにが生まれた理由</h2>
-  <p class="lead">
-    これまで、スタッフが疲弊して辞めていく現場を見てきました。
-    不満を抱えながら、文句を言いながら働く空気も見てきました。
-  </p>
-  <p class="lead">
-    でも、本当はそうではなくていいはずです。
-    働く人が自分を大切にできること。
-    仲間と助け合えること。
-    やりたいことに挑戦できること。
-  </p>
-  <p class="lead">
-    そんな職場であれば、利用者さんにも、ご家族にも、もっと良い看護を届けられる。
-    そう信じて、あどまーには生まれました。
-  </p>
-</section>
-
-<section class="promise">
-  <h2 class="section-title">あどまーにの約束</h2>
+<section class="section">
+  <h2>あどまーにが大切にしたいこと</h2>
 
   <div class="cards">
     <div class="card">
-      <h3>やりたいことを応援します</h3>
+      <h3>やりたいことを応援する</h3>
       <p>
         仕事のことでも、仕事以外のことでも。
         「やってみたい」という気持ちを大切にします。
@@ -244,7 +72,7 @@
     </div>
 
     <div class="card">
-      <h3>あなたの時間を大切にします</h3>
+      <h3>自分の時間を大切にする</h3>
       <p>
         家族との時間、自分の時間、休む時間。
         そのすべてが、人生には必要です。
@@ -252,7 +80,7 @@
     </div>
 
     <div class="card">
-      <h3>一人で悩ませません</h3>
+      <h3>一人で悩ませない</h3>
       <p>
         困ったとき、迷ったときは一緒に考えます。
         相談し合える関係を大切にします。
@@ -261,90 +89,69 @@
   </div>
 </section>
 
-<section>
-  <h2 class="section-title">あどまーにで働くということ</h2>
+<section class="section soft">
+  <h2>あどまーにで働くということ</h2>
 
-  <div class="cards">
-    <div class="card">
-      <h3>直行直帰が基本</h3>
-      <p>
-        必要以上に出勤に縛られず、時間を大切にしながら働けます。
-      </p>
-    </div>
-
-    <div class="card">
-      <h3>神経難病に向き合う</h3>
-      <p>
-        ALS、パーキンソン病、人工呼吸器、胃ろう、吸引など、専門的な在宅看護に関わります。
-      </p>
-    </div>
-
-    <div class="card">
-      <h3>専門性を学べる</h3>
-      <p>
-        皮膚・排泄ケア、緩和ケアなど、専門的な視点を学びながら成長できます。
-      </p>
-    </div>
-
-    <div class="card">
-      <h3>一緒につくれる</h3>
-      <p>
-        新しいステーションだからこそ、働き方も、仕組みも、文化も一緒につくっていけます。
-      </p>
-    </div>
-  </div>
+  <ul class="checklist">
+    <li>直行直帰が基本</li>
+    <li>神経難病や医療的ケアに関わる在宅看護</li>
+    <li>皮膚・排泄ケアや緩和ケアの専門性を学べる環境</li>
+    <li>意見を言い合い、助け合える職場づくり</li>
+    <li>新しいステーションを一緒につくっていける</li>
+  </ul>
 </section>
 
-<section class="person">
-  <h2 class="section-title">一緒に働きたい人</h2>
-  <p>私たちが一緒に働きたいのは、経験の多い人だけではありません。</p>
-  <strong>自分を大切にできる人。</strong>
+<section class="section">
+  <h2>一緒に働きたい人</h2>
+  <p class="large">
+    私たちが一緒に働きたいのは、<br>
+    <strong>自分を大切にできる人</strong>です。
+  </p>
   <p>
-    自分を大切にできる人は、家族を大切にできます。<br>
-    仲間を大切にできます。<br>
+    自分を大切にできる人は、家族を大切にできます。
+    仲間を大切にできます。
     そして、利用者さんやご家族の人生も大切にできると信じています。
   </p>
 </section>
 
-<section class="faq">
-  <h2 class="section-title">よくある質問</h2>
+<section class="section soft">
+  <h2>よくある質問</h2>
 
-  <details>
-    <summary>訪問看護が未経験でも大丈夫ですか？</summary>
-    <p>大丈夫です。同行訪問や相談しやすい体制を大切にします。</p>
-  </details>
+  <div class="faq">
+    <details>
+      <summary>訪問看護が未経験でも大丈夫ですか？</summary>
+      <p>大丈夫です。同行訪問や相談しやすい体制を大切にします。</p>
+    </details>
 
-  <details>
-    <summary>直行直帰はできますか？</summary>
-    <p>基本は直行直帰です。必要に応じて情報共有や相談を行います。</p>
-  </details>
+    <details>
+      <summary>直行直帰はできますか？</summary>
+      <p>基本は直行直帰です。必要に応じて情報共有や相談を行います。</p>
+    </details>
 
-  <details>
-    <summary>神経難病の経験がなくても応募できますか？</summary>
-    <p>応募できます。経験よりも、学ぶ姿勢や人を大切にする気持ちを大切にします。</p>
-  </details>
+    <details>
+      <summary>神経難病の経験がなくても応募できますか？</summary>
+      <p>応募できます。経験よりも、学ぶ姿勢や人を大切にする気持ちを大切にします。</p>
+    </details>
 
-  <details>
-    <summary>まず話を聞くだけでもいいですか？</summary>
-    <p>もちろん大丈夫です。応募するかどうかは、その後で構いません。</p>
-  </details>
+    <details>
+      <summary>まず話を聞くだけでもいいですか？</summary>
+      <p>もちろん大丈夫です。応募するかどうかは、その後で構いません。</p>
+    </details>
+  </div>
 </section>
 
-<section id="contact" class="cta">
-  <h2>あなたの人生も、豊かに。</h2>
-  <p class="lead" style="margin: 0 auto 30px;">
-    この想いに少しでも共感していただけたなら、まずは一度お話ししませんか。
+<section class="section contact-cta">
+  <h2>まずは一度、お話ししませんか。</h2>
+  <p>
+    この想いに少しでも共感していただけたなら、まずは話を聞くだけでも大丈夫です。
   </p>
-  <div class="buttons">
-    <a class="primary" href="contact.html">問い合わせる</a>
-    <a class="secondary" href="index.html">トップページへ戻る</a>
-  </div>
+  <a class="button" href="contact.html">お問い合わせへ</a>
 </section>
 
 </main>
 
 <footer>
-  © 訪問看護ステーションあどまーに
+  <p>訪問看護ステーションあどまーに</p>
 </footer>
 
 </body>
